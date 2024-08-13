@@ -116,4 +116,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source /home/jchong/.dotfiles/linux/bash/bash-powerline.sh
