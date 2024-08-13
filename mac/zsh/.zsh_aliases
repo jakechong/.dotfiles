@@ -1,0 +1,12 @@
+# git aliases
+echo "Adding git aliases"
+alias gco='git checkout'
+alias gcp='git cherry-pick'
+alias gcb='git checkout -b'
+alias gb='git branch'
+alias gbd='git branch -D'
+alias gst='git status'
+alias glg='git log'
+
+alias cdnvim='cd ~/.config/nvim'
+alias nvimconfig='cd ~/.config/nvim && nvim'
