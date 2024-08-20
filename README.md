@@ -6,10 +6,16 @@
 - nvim
 - zsh
 
-## Linux
+## Ubuntu
 
 - nvim
 - bash
+
+## Arch Linux
+
+- alacritty
+- AwesomeWM
+- nvim
 
 These are my current dotfiles for either Mac or Linux.
 To setup on a Mac:
