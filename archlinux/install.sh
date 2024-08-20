@@ -1,5 +1,5 @@
 if [[ -z $STOW_FOLDERS ]]; then
-  STOW_FOLDERS="nvim,alacritty,awesome"
+  STOW_FOLDERS="nvim,alacritty,awesome,tmux";
 fi
 
 if [[ -z $DOTFILES ]]; then 
