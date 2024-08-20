@@ -24,6 +24,7 @@ alias gfo='git fetch origin'
 alias gst='git status'
 alias ga='git add'
 alias gc='git commit'
+alias gp='git push'
 
 # pyenv stuff
 
