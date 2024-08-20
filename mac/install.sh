@@ -2,16 +2,15 @@ if [[ -z $STOW_FOLDERS ]]; then
   STOW_FOLDERS="nvim,zsh,tmux"
 fi
 
-if [[ -z $DOTFILES]]; THEN
+if [[ -z $DOTFILES ]]; then 
   DOTFILES=$HOME/.dotfiles
 fi
 
-pushd $DOTFILES
+pushd $DOTFILES/mac
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
-  mac_folder=mac/$folder
-  echo "stow $mac_folder"
-  stow -D $mac_folder
-  stow $mac_folder
+  echo "stow $folder"
+  stow -D $folder
+  stow -t $HOME $folder
 done
 popd

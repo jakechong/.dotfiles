@@ -5,17 +5,20 @@
 - git
 - nvim
 - zsh
+- tmux
 
 ## Ubuntu
 
 - nvim
 - bash
+- tmux
 
 ## Arch Linux
 
 - alacritty
 - AwesomeWM
 - nvim
+- tmux
 
 These are my current dotfiles for either Mac or Linux.
 To setup on a Mac:
@@ -24,7 +27,8 @@ To setup on a Mac:
 brew install stow
 
 # run install script
-source ./mac/install.sh
+cd mac
+source ./install.sh
 
 # run git setup script
 source ./mac/git_setup.sh
@@ -36,9 +40,20 @@ To setup on Ubuntu:
 sudo apt install stow
 
 # run install script
-source ./linux/install.sh
+source ./ubuntu/install.sh
 
 # run git setup script
-source ./linux/git_setup.sh
+source ./ubuntu/git_setup.sh
 ```
 
+To setup on Arch:
+```
+# install stow
+sudo pacman -S stow
+
+# run install script
+source ./archlinux/install.sh
+
+# run git setup script
+source ./archlinux/git_setup.sh
+```
